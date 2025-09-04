@@ -22,7 +22,7 @@ Before evaluation, please download the datasets and models, and then configure t
 
 Use the following code to evaluate the model.
 ```
-python evaluate.py --gpu=0 --checkpoint=./weights/vit_huge.pth --eval-mode=cvpr --datasets=GrabCut,Berkeley,DAVIS,PascalVOC,SBD,COCO_MVal,ssTEM,BraTS,OAIZIB
+python3 evaluate.py --gpu=0 --checkpoint=./weights/vit_huge.pth --eval-mode=cvpr --datasets=GrabCut,Berkeley,DAVIS,PascalVOC,SBD,COCO_MVal,ssTEM,BraTS,OAIZIB
 ```
 
 ## Training
